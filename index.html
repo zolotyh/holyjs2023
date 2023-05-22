@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/csshake.min.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" />
+    
+    <link rel="preload" href="./dist/theme/fonts/work/subset-YanoneKaffeesatz-ExtraLight.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background="./img/quixote.png">
+          <h1 style="line-height: 0.7em; font-weight: 800">Борьба</h1>
+          <h3>с ветряными мельницамии</h3>
+          <br>
+        </section>
+        <section data-background="./img/quixote.png" data-transition="slide none">
+          <p>Как жить с техническим долгом</p>
+          <p style="opacity: 0;">Как жить с техническим долгом</p>
+        </section>
+        <section data-background="./img/quixote.png" data-transition="none slide">
+          <p>
+            <strike>Как жить с техническим долгом</strike>
+          </p>
+          <p>Как <b>я живу</b> с техническим долгом</p>
+        </section>
+        <section>
+          <table>
+            <tr>
+              <td style="vertical-align: middle">
+                <img style="height: 8em" src="img/logo.jpg" alt="">
+              </td>
+              <td style="vertical-align: middle">
+                Золотых Алексей
+                <br>
+                  @zolotyh
+                <br>
+                  Github | Telegram | Twitter
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <img style="height: 10em;" src="./img/logo.svg" alt="Лого МойОфис">
+          <p>МойОфис</p>
+        </section>
+        <section>
+          <img src="./img/holyjs.svg" alt="HolyJS">
+        </section>
+        <section>
+          <h2>Тяжелое утро c HolyJS</h2>
+          <img src="./img/podcast.jpeg" alt="Podcast Тяжелое утро HolyJS">
+        </section>
+        <section data-transition="none">
+          <h2>План</h2>
+          <ol>
+            <li class="fragment">Кто кому и что должен</li>
+            <li class="fragment">Где встречается</li>
+            <li class="fragment">Какой бывает</li>
+            <li class="fragment">Как бороться</li>
+            <li class="fragment">Полезняшки</li>
+            </0l>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <h1>1. Кто кому и что должен</h1>
+        </section>
+        <section data-transition="slide">
+          <h1>Технический долг</h1>
+          <p>это метафора программной инженерии, обозначающая накопленные в программном коде или архитектуре проблемы, связанные с пренебрежением к качеству при разработке программного обеспечения и вызывающие дополнительные затраты труда в будущем</p>
+        </section>
+        <section data-transition="slide none" data-auto-animate>
+          <aside class="notes">
+            Уорд Каннингем, 1992
+          </aside>
+          <p>
+            <b style='font-size: 1.2em'>накопленные</b> в программном коде или архитектуре <b style='font-size: 1.2em'>проблемы</b>, связанные с <b style='font-size: 1.2em'>пренебрежением к качеству</b>
+          </p>
+        </section>
+        <section>
+          <p>Срезаем углы =&gt; берем технический долг</p>
+          <p class="fragment">
+            <a href="https://habr.com/ru/articles/453280/">https://habr.com/ru/articles/453280/</a>
+          </p>
+        </section>
+        <section>
+          Все как обычно несколько сложнее
+        </section>
+        <section data-transition="slide none">
+          <p>это метафора программной инженерии, обозначающая накопленные в программном коде или архитектуре проблемы, связанные с пренебрежением к качеству при разработке программного обеспечения и вызывающие дополнительные затраты труда в будущем</p>
+        </section>
+        <section data-transition="none slide">
+          <p>это <b style="font-size: 1.2em">метафора</b> программной инженерии, обозначающая накопленные в программном коде или архитектуре проблемы, связанные с пренебрежением к качеству при разработке программного обеспечения и вызывающие дополнительные затраты труда в будущем</p>
+        </section>
+        <section>Метафора - не научный термин</section>
+        <section data-background="./img/esenin.jpeg">
+        </section>
+        <section data-transition="none">
+          <blockquote cite="">
+            Не жаль мне лет, растраченных напрасно,
+            <br>
+              Не жаль души сиреневую цветь.
+            <br>
+              В саду горит костер рябины красной,
+            <br>
+              Но никого не может он согреть.
+          </blockquote>
+        </section>
+        <section data-transition="none">
+          <blockquote cite="">
+            Не жаль мне лет, растраченных напрасно,
+            <br>
+              Не жаль души сиреневую цветь.
+            <br>
+              В саду горит <b style="font-size: 1.2em">костер рябины красной,</b>
+            <br>
+              Но никого не может он согреть.
+          </blockquote>
+        </section>
+        <section data-transition="none">
+          <blockquote cite="">
+            Не жаль мне лет, растраченных напрасно,
+            <br>
+              Не жаль души сиреневую цветь.
+            <br>
+              В саду горит костер рябины красной,
+            <br>
+            <b style="font-size: 1.2em">Но никого не может он согреть.</b>
+          </blockquote>
+        </section>
+        <section>
+          <img src="img/r.jpeg" alt="Рябиновая настойка">
+        </section>
+        <section>Что не так с метфорой долга</section>
+        <section data-auto-animate>
+          <h2>
+            Проблема номер ноль
+          </h2>
+          <p>Второе начало термодинамики</p>
+        </section>
+        <section data-auto-animate>
+          <h2>
+            Проблема номер ноль
+          </h2>
+          <p>Энтропия изолированных систем стремится к максимуму.</p>
+        </section>
+        <section data-auto-animate>
+          <h2>
+            Проблема номер ноль
+          </h2>
+          <p><strike>Энтропия изолированных систем стремится к максимуму.</strike></p>
+          <p>Любой ваш код или решение рано или поздно превратиться в давнокод и легаси</p>
+        </section>
+        <section data-transition="slide-in none">
+          Технический долг - задачи, которые нужно выполнять, чтобы разработка со временем не стала дольше
+        </section>
+        <section data-transition="nonde slide-out">
+          Технический долг - задачи, которые нужно выполнять, чтобы разработка со временем не стала <strike>дольше</strike> дороже
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <h1>2. Где встречается</h1>
+        </section>
+        <section>
+          <h2>
+            Чтобы не было технического долга и легаси нужно рефакторить
+          </h2>
+        </section>
+        <section data-auto-animate>
+          <aside class="notes">
+            это попытка всеобъемлющей и подробной формализации некоторой области знаний с помощью концептуальной схемы
+          </aside>
+          <h3>Онтология технического долга</h3>
+          <ul style="columns: 2;" >
+            <li>Architecture Debt</li>
+            <li>Build Debt</li>
+            <li>Code Debt</li>
+            <li>Defect Debt</li>
+            <li>Design Debt</li>
+            <li>Documentation Debt</li>
+            <li>Infrastructure Debt</li>
+            <li>People Debt</li>
+            <li>Process Debt</li>
+            <li>Requirement Debt</li>
+            <li>Service Debt</li>
+            <li>Test Automation Debt</li>
+            <li>Test Debt</li>
+          </ul>
+          <p>
+            <a href="https://shorturl.at/kuFS3">https://shorturl.at/kuFS3</a>
+          </p>
+        </section>
+        <section data-auto-animate>
+          <h3>Онтология технического долга</h3>
+          <ul>
+            <li>Architecture Debt</li>
+            <li>Code Debt</li>
+            <li>Design Debt</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <h3>Онтология технического долга </h3>
+          <ul>
+            <li><strike>Architecture Debt</strike></li>
+            <li>Code Debt</li>
+            <li>Design Debt</li>
+          </ul>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <h1>3. Какой бывает</h1>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#2F2F2F">
+          <h2>Обоснованный и безрассудный</h2>
+        </section>
+        <section>
+          <h4>Как можно набрать техдолг на пустом месте</h4>
+          <ul>
+            <li class="fragment">Redux =&gt; MobX</li>
+            <li class="fragment">MomentJS =&gt; DayJS</li>
+            <li class="fragment">Старый подход =&gt; Новый подход</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Как это бывает...</h2>
+          <ul>
+            <li class="fragment">MobX лучше Redux</li>
+            <li class="fragment">Redux =&gt; MobX &mdash; технический долг</li>
+            <li class="fragment">Если не следить за техдолгом, проект невозможно будет поддерживать</li>
+            <li class="fragment">Я пошел переписывать</li>
+            <li class="fragment">Приходи со своими фичами через полгода</li>
+          </ul>
+        </section>
+        <section>
+          Сначала в это даже кто-то верил, но потом...
+        </section>
+        <section
+          data-background-video="./video/d3.mov"
+          data-background-color="#fff"
+        >
+          <div style="margin-top: 4em; background: rgba(255,255,255, 0.9);">
+            <p>&mdash; Сейчас у нас другие приоритеты, <br/>вернемся к этом разговору чуть позже</p> 
+          </div>
+        </section>
+        <section>
+          <h2>Есть и такое мнение</h2>
+          <p>
+            <a href="https://shorturl.at/cgky5">shorturl.at/cgky5</a>
+          </p>
+          <img style="height: 10em;" src="img/td.png" alt="">
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#2F2F2F">
+          <h2>Известный или неизвестный</h2>
+        </section>
+        <section >
+          <h2>Известный или неизвестный</h2>
+          <p>Мы не можем бороться с проблемой, если мы о ней не знаем</p>
+        </section>
+        <section> 
+          Когда знания не хватает
+        </section>
+        <section>
+          <img src="img/todo.png" alt="todo in the code">
+        </section>
+        <section>
+          <h2>В это время в Jira...</h2>
+          <div style="text-align: left;  padding: 0.5em; border: 1px solid grey;">
+            <p style="font-size: 0.5em; text-align: right">1 of 100 000 tasks</p>
+            <div>
+              <b style="font-size: 1.2em">[technical debt] Fix RegistrationForm</b>
+              <textarea name="" id="" cols="30" rows="3" style="width: 100%; margin-top: .6em; font-size: 1em">Fix RegistrationForm component</textarea>
+              <p style="text-align: right;">
+                <button style="background: black; color: #fff; padding: .5em 2em; border: none; font-size: .6em">Сохранить</button>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Известный или неизвестный нам</h2>
+          <p>Мы не можем бороться с проблемой, если мы о ней не знаем</p>
+        </section>
+        <section data-auto-animate>
+          <h2><strike>Известный или неизвестный нам</strike></h2>
+          <h2>Управляемый или неуправляемый</h2>
+          <p>Мы не можем бороться с проблемой, если мы о ней не знаем</p>
+        </section>
+        <section data-transition="none">
+          <table>
+            <tr>
+              <td><b>не</b>обоснованный<br>управляемый</td>
+              <td>обоснованный<br>управляемый</td>
+            </tr>
+            <tr>
+              <td><b>не</b>обоснованный<br><b>не</b>управляемый</td>
+              <td>обоснованный<br><b>не</b>управляемый</td>
+            </tr>
+          </table>
+        </section>
+        <section data-transition="none">
+          <table>
+            <tr>
+              <td><b>не</b>обоснованный<br>управляемый</td>
+              <td style="background-color: #00AA00; color: #fff; font-weight: bold">обоснованный<br>управляемый</td>
+            </tr>
+            <tr>
+              <td><b>не</b>обоснованный<br><b>не</b>управляемый</td>
+              <td>обоснованный<br><b>не</b>управляемый</td>
+            </tr>
+          </table>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <h1>4. Как бороться</h1>
+        </section>
+        <section>
+          <h2>Борьба с техдолгом это процесс</h2>
+        </section>
+        <section>
+          <p>План</p>
+          <ol>
+            <li class="fragment">Ищем</li>
+            <li class="fragment">Оцениваем</li>
+            <li class="fragment">Принимаем решение</li>
+            <li class="fragment">Делаем</li>
+            <li class="fragment">Рефлексируем</li>
+            <li class="fragment">Мониторим</li>
+          </ol>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#2F2F2F">
+          <h2>
+            Поиск
+          </h2>
+          <ul>
+            <li class="fragment">Спросить у команды <span class="fragment">(субъективно)</span></li>
+            <li class="fragment">Автоматический анализ</li>
+          </ul>
+        </section>
+        <section>
+          Как нам поможет автоматизация
+        </section>
+        <section>
+          <h2>ASA</h2>
+        </section>
+        <section>
+          <img src="img/eslint.png" alt="Eslint screenshot">
+        </section>
+        <section>
+          <img src="img/sonar.png" alt="Sonar screenshot">
+        </section>
+        <section>
+          <p>
+            Что ищем?
+          </p>
+          <ul>
+            <li class="fragment">Code style</li>
+            <li class="fragment">Антипаттерны</li>
+            <li class="fragment">CodeSmells</li>
+            <li class="fragment">Ошибки безопасности</li>
+            <li class="fragment">DRY</li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <aside class="notes">
+            Все метрики сводятся к игре вокруг кол-ва чего-либо в абстрактных синтаксических деревьях
+          </aside>
+          <h3>
+            Метрики кода
+          </h3>
+
+        </section>
+        <section>
+          <p>
+            Low Coupling (низкая связанность) и High Cohesion (высокое зацепление)
+          </p>
+          <img style="height: 10em" src="img/1.png" alt="">
+        </section>
+        <section>
+          <p>
+            1. Идеальная ситуация
+          </p>
+          <img style="height: 10em;" src="img/2.png" alt="">
+        </section>
+        <section>
+          <p>
+            2. Все в одном
+          </p>
+          <img style="height: 10em;" src="img/3.png" alt="">
+        </section>
+        <section>
+          <p>
+            3. Неправильные границы
+          </p>
+          <img style="height: 10em;" src="img/4.png" alt="">
+        </section>
+        <section>
+          <p>
+            4. Мастер SOLID
+          </p>
+          <img style="height: 10em;" src="img/5.png" alt="">
+        </section>
+        <section>
+          <aside class="notes">
+           Отток кода (также известный как переделка) — это показатель, который показывает, как часто данный фрагмент кода — например, файл, класс, функция — редактируется. Как вы скоро увидите, если данный фрагмент кода получает изменения слишком часто, обычно это плохой знак. 
+          </aside>
+          <p>
+            Как можно найти?
+          </p>
+          <ul>
+            <li class="fragment">Сложность кода (cyclomatic complexity vs cognitive complexity)</li>
+            <li class="fragment">Текучесть (code churn)</li>
+            <li class="fragment">Кол-во зависимостей</li>
+            <li class="fragment">Размер файла в строках</li>
+            <li class="fragment">Покрытие тестами</li>
+          </ul>
+        </section>
+        <section>
+          <aside class="notes">
+            <p>Набор метрик Чидамбера и Кемерера 1994</p>
+            <p>WMC кол-во методов в классе</p>
+            <p>DIT - глубина наследования</p>
+            <p>CBO - кол-во зацеплений между классами</p>
+          </aside>
+          <p>
+            Chidamber & Kemerer object-oriented metrics suite (<a href="https://www.aivosto.com/project/help/pm-oo-ck.html">shorturl.at/kOS28</a>)
+          </p>
+          <ul>
+            <li>WMC Weighted Methods Per Class</li>
+            <li>DIT Depth of Inheritance Tree</li>
+            <li>NOC Number of Children</li>
+            <li>CBO Coupling between Object Classes</li>
+            <li>RFC and RFC´ Response for a Class</li>
+            <li>LCOM(4) Lack of Cohesion of Methods</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Code Complexity</h2>
+          <pre><code data-trim data-noescape>
+$ npx code-complexity . --sort=score --limit=3
+
+┌──────────────────────────────┬────────────┬───────┬───────┐
+│ file                         │ complexity │ churn │ score │
+├──────────────────────────────┼────────────┼───────┼───────┤
+│ src/cli.ts                   │ 103        │ 8     │ 824   │
+├──────────────────────────────┼────────────┼───────┼───────┤
+│ test/code-complexity.test.ts │ 107        │ 7     │ 749   │
+├──────────────────────────────┼────────────┼───────┼───────┤
+│ .idea/workspace.xml          │ 123        │ 6     │ 738   │
+└──────────────────────────────┴────────────┴───────┴───────┘
+          </code></pre>
+        </section>
+        <section>
+          <h2>
+            @deprecated
+          </h2>
+        </section>
+        <section>
+          <pre><code data-line-numbers="1-8|2|1-8" data-trim data-noescape>
+/**
+ * @deprecated Please use {@link NonDeprecatedComponent}
+ */
+export const DeprecatedComponent = () =&gt; {
+   const callback = useCallback(() =&gt; {}, []);
+   return &lt;div onClick={callback}&gt;&lt;/div&gt;;
+}
+
+          </code></pre>
+        </section>
+        <section>
+          <img src="img/idea2.png" alt="Idea screenshot">
+        </section>
+        <section>
+          <h2>Semgrep</h2>
+          <p>Структурный поиск по коду</p>
+        </section>
+        <section>
+          <h2>Angular 1.*</h2>
+          <pre><code data-trim data-noescape data-line-numbers="1-9|3">
+rules:
+    - id: legacy_metrics.angular_modules
+      pattern-regex: angular(?:(?:\n\s*)|)\.module|ngInject
+      message: Angular module was found
+      languages:
+          - javascript
+          - typescript
+      severity: WARNING
+          </code></pre>
+        </section>
+        <section>
+          <h2>Grafana + Clickhouse</h2>
+          <img src="img/angular.png" alt="">
+        </section>
+        <section>
+          <p>План</p>
+          <ol>
+            <li>Ищем</li>
+            <li>Оцениваем</li>
+            <li class="fragment">Принимаем решение</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Как принимать решения</h2>
+          <ul>
+            <li class="fragment">80/20</li>
+            <li class="fragment">Квадрат Декарта</li>
+            <li class="fragment">SWOT Анализ</li>
+            <li class="fragment">Упавление рисками</li>
+          </ul>
+        </section>
+        <section>
+          <p>План</p>
+          <ol>
+            <li >Ищем</li>
+            <li >Оцениваем</li>
+            <li >Принимаем решение</li>
+            <li class="fragment"><mark>Планируем</mark></li>
+          </ol>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <p>
+            Планируем (Big Design Up Front)
+          </p>
+        </section>
+        <section>
+          <p>План</p>
+          <ol>
+            <li>Ищем</li>
+            <li>Оцениваем</li>
+            <li>Принимаем решение</li>
+            <li>Планируем</li>
+            <li class="fragment">Делаем</li>
+            <li class="fragment">Рефлексируем</li>
+            <li class="fragment">Мониторим</li>
+          </ol>
+        </section>
+        <section data-transition="fade-in slide-out" data-background-color="#030303">
+          <h1>5. Полезняшки</h1>
+        </section>
+        <section>
+          <h2>Sonarqube Community Branch Plugin</h2>
+          <p>https://github.com/mc1arke/sonarqube-community-branch-plugin</p>
+          <pre><code data-trim data-noescape data-line-numbers="1-40|7|26-36">
+version: "3.8"
+
+services:
+  sonarqube:
+    depends_on:
+      - db
+    image: mc1arke/sonarqube-with-community-branch-plugin:${SONARQUBE_VERSION}
+    build:
+      context: .
+      dockerfile: ${DOCKERFILE}
+      args:
+        SONARQUBE_VERSION: ${SONARQUBE_VERSION}
+        PLUGIN_VERSION: ${PLUGIN_VERSION}
+    container_name: sonarqube
+    ports:
+      - 9000:9000
+    networks:
+      - sonarnet
+    environment:
+      - SONAR_JDBC_URL=jdbc:postgresql://db:5432/sonar
+      - SONAR_JDBC_USERNAME=sonar
+      - SONAR_JDBC_PASSWORD=sonar
+    volumes:
+      - sonarqube_conf:/opt/sonarqube/conf
+      - sonarqube_data:/opt/sonarqube/data
+  db:
+    image: postgres:11
+    container_name: postgres
+    networks:
+      - sonarnet
+    environment:
+      - POSTGRES_USER=sonar
+      - POSTGRES_PASSWORD=sonar
+    volumes:
+      - postgresql:/var/lib/postgresql
+      - postgresql_data:/var/lib/postgresql/data
+
+volumes:
+  sonarqube_conf:
+  sonarqube_data:
+  postgresql:
+  postgresql_data:
+
+networks:
+  sonarnet:
+          </code></pre>
+        </section>
+        <section>
+          <p>Бас фактор</p>
+          <p><a href="https://github.com/onigoetz/absorption">github.com/onigoetz/absorption</a></p>
+          <pre><code data-trim data-escape>
+absorption /Users/onigoetz/Sites/Libs/crafty --weights weights.json --contributors contributors.json
+Scanning ████████████████████████████████████████ | 100% | 492/492 files
+
+The repository's absorption score is 16% fresh, 84% fading and 0% lost
+
+Fresh/Fading knowledge
+
+ Name               │    Total │    Fresh │   Fading 
+────────────────────┼──────────┼──────────┼──────────
+ Stéphane Goetz     │  99.51 % │  15.67 % │  83.83 % 
+ Vitalii Shapovalov │   0.14 % │   0.14 % │   0.00 % 
+          </code></pre>
+        </section>
+        <section>
+          <p>
+            Работаем с JSON
+          </p>
+          <p><a href="https://github.com/discoveryjs">github.com/discoveryjs</a></p>
+          <img src="img/discovery.png" alt="">
+        </section>
+        <section>
+         <p>Другие тулы для структурного поиска</p>
+          <ul>
+            <li><a href="https://codeql.github.com/">codeql.github.com</a></li>
+            <li><a href="https://comby.dev/">comby.dev</a></li>
+          </ul>
+        </section>
+        <section>
+          <p>
+            Zoomable Treemap
+          </p>
+          <iframe width="100%" style="min-height: 12em" src="https://mbostock.github.io/d3/talk/20111018/treemap.html" frameborder="0"></iframe>
+        </section>
+        <section>
+          <h2>Выводы</h2>
+          <ul>
+            <li class="fragment">Технический долг &mdash; метафора</li>
+            <li class="fragment">Долг должен быть управляемым и осмысленным</li>
+            <li class="fragment">Измерения позволяют контролировать динамику</li>
+            <li class="fragment">Прозрачность повышает доверие</li>
+            <li class="fragment">Не нужно расчитываться по всем долгам</li>
+            <li class="fragment">Помни про правило номер 0</li>
+          </ul>
+        </section>
+      </div>
+      </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
